@@ -19,9 +19,9 @@
 		C33CE3991EC5B3ED008D05F6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33CE3981EC5B3ED008D05F6 /* RootViewController.m */; };
 		C38336781ECA9CAA002A4D5E /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38336771ECA9CAA002A4D5E /* WelcomeViewController.m */; };
 		C383367B1ECAA308002A4D5E /* CustomMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C383367A1ECAA308002A4D5E /* CustomMainController.m */; };
-		C38336801ECAAF95002A4D5E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C383367F1ECAAF95002A4D5E /* FirstViewController.m */; };
 		C38336831ECAAFA3002A4D5E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38336821ECAAFA3002A4D5E /* SecondViewController.m */; };
 		C383368A1ECADDD2002A4D5E /* TTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C38336891ECADDD2002A4D5E /* TTConst.m */; };
+		C386A62E1ECAF02A008F691E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C386A62D1ECAF02A008F691E /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,6 @@
 		C38336771ECA9CAA002A4D5E /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		C38336791ECAA308002A4D5E /* CustomMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMainController.h; sourceTree = "<group>"; };
 		C383367A1ECAA308002A4D5E /* CustomMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainController.m; sourceTree = "<group>"; };
-		C383367E1ECAAF95002A4D5E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../../../FirstViewController.h; sourceTree = "<group>"; };
-		C383367F1ECAAF95002A4D5E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../../../FirstViewController.m; sourceTree = "<group>"; };
 		C38336811ECAAFA3002A4D5E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C38336821ECAAFA3002A4D5E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C38336851ECADD6D002A4D5E /* CoreMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMacro.h; sourceTree = "<group>"; };
@@ -75,6 +73,8 @@
 		C38336871ECADDB6002A4D5E /* UrlHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrlHeader.h; sourceTree = "<group>"; };
 		C38336881ECADDD2002A4D5E /* TTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConst.h; sourceTree = "<group>"; };
 		C38336891ECADDD2002A4D5E /* TTConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTConst.m; sourceTree = "<group>"; };
+		C386A62C1ECAF02A008F691E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C386A62D1ECAF02A008F691E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +226,8 @@
 		C383367C1ECAAF7D002A4D5E /* FirstVC */ = {
 			isa = PBXGroup;
 			children = (
-				C383367E1ECAAF95002A4D5E /* FirstViewController.h */,
-				C383367F1ECAAF95002A4D5E /* FirstViewController.m */,
+				C386A62C1ECAF02A008F691E /* FirstViewController.h */,
+				C386A62D1ECAF02A008F691E /* FirstViewController.m */,
 			);
 			path = FirstVC;
 			sourceTree = "<group>";
@@ -386,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C386A62E1ECAF02A008F691E /* FirstViewController.m in Sources */,
 				C38336831ECAAFA3002A4D5E /* SecondViewController.m in Sources */,
 				C33CE35A1EC5A127008D05F6 /* AppDelegate.m in Sources */,
 				C33CE3961EC5A96C008D05F6 /* XXCustomTopBarView.m in Sources */,
@@ -395,7 +396,6 @@
 				C33CE3991EC5B3ED008D05F6 /* RootViewController.m in Sources */,
 				C383368A1ECADDD2002A4D5E /* TTConst.m in Sources */,
 				C38336781ECA9CAA002A4D5E /* WelcomeViewController.m in Sources */,
-				C38336801ECAAF95002A4D5E /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +482,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xuxu/Desktop/XXFrameWork/Core/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/xuxu/XXFrameWork/XXFrameWork/Core/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -531,7 +531,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xuxu/Desktop/XXFrameWork/Core/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/xuxu/XXFrameWork/XXFrameWork/Core/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
